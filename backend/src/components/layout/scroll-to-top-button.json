@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_layout_scroll_to_top_buttons",
+  "info": {
+    "displayName": "Scroll to top button",
+    "icon": "arrowUp"
+  },
+  "options": {},
+  "attributes": {
+    "show": {
+      "type": "boolean",
+      "default": true
+    },
+    "rounded": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
