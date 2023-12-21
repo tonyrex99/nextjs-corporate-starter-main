@@ -23,12 +23,14 @@ export async function fetchAPI(
     )}`;
 
     // Trigger API call
+    console.log("@@@real request: ", requestUrl);
     const response = await fetch(requestUrl, mergedOptions);
     const data = await response.json();
     return data;
-    
   } catch (error) {
     console.error(error);
-    throw new Error(`Please check if your server is running and you set all the required tokens.`);
+    throw new Error(
+      `Please check if your server is running and you set all the required tokens.`
+    );
   }
 }

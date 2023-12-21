@@ -1,15 +1,16 @@
 interface HighlightedTextProps {
   text: string;
-  classNames?: string;
+  tag: string;
+  className?: string;
   color?: string;
 }
 
-export default function HighlightedText({
+export default function TitleText({
   text,
-  classNames,
+  tag,
+  className,
   color,
 }: HighlightedTextProps) {
-  /**
   const tempText = text.split(" ");
   let result = [];
 
@@ -25,11 +26,6 @@ export default function HighlightedText({
   });
 
   result.push(`</${tag}>`);
- */
-  return (
-    <div
-      className={classNames + " " + color}
-      dangerouslySetInnerHTML={{ __html: text }}
-    />
-  );
+
+  return <div dangerouslySetInnerHTML={{ __html: result.join("") }} />;
 }

@@ -10,6 +10,15 @@ const populate = {
       picture: {
         fields: ["url", "alternativeText", "caption", "width", "height"],
       },
+      backgroundImage: {
+        fields: ["url", "alternativeText", "caption", "width", "height"],
+      },
+      files: {
+        fields: ["url", "alternativeText", "caption", "width", "height"],
+      },
+      backgroundImage: {
+        fields: ["url", "alternativeText", "caption", "width", "height"],
+      },
       buttons: {
         populate: true,
       },
@@ -39,7 +48,7 @@ const populate = {
   seo: {
     fields: ["metaTitle", "metaDescription"],
     populate: { shareImage: true },
-  }
+  },
 };
 
 module.exports = (config, { strapi }) => {

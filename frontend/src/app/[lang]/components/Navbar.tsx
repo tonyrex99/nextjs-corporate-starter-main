@@ -69,7 +69,7 @@ export default function Navbar({
   };
   return (
     <>
-      <div className="p-4 dark:bg-black dark:text-gray-100   fixed w-full z-50">
+      <div className="p-4 bg-black text-gray-100   fixed w-full z-50">
         <div className="container flex justify-between h-16 mx-auto px-0 sm:px-6">
           <Logo src={logoUrl}>
             {logoText && <h2 className="text-2xl font-bold">{logoText}</h2>}

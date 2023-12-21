@@ -5,12 +5,14 @@ import Media from "../components/Media";
 import VideoEmbed from "../components/VideoEmbed";
 
 export function postRenderer(section: any, index: number) {
+  console.log("data is: ", section);
+
   switch (section.__component) {
     case "shared.rich-text":
       return <RichText key={index} data={section} />;
     case "shared.slider":
       return <ImageSlider key={index} data={section} />;
-    case "shared.quote": 
+    case "shared.quote":
       return <Quote key={index} data={section} />;
     case "shared.media":
       return <Media key={index} data={section} />;
