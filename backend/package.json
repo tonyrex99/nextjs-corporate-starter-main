@@ -17,6 +17,8 @@
     "@strapi/plugin-users-permissions": "4.12.5",
     "@strapi/strapi": "4.12.5",
     "better-sqlite3": "8.4.0",
+    "pg": "^8.11.3",
+    "pg-connection-string": "^2.6.2",
     "sharp": "^0.33.0",
     "strapi-content-type-explorer": "^0.1.1",
     "strapi-plugin-component-preview": "^1.0.9",
