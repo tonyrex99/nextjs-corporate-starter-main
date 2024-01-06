@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_video_embed_collections",
+  "info": {
+    "displayName": "Video Embed Collection"
+  },
+  "options": {},
+  "attributes": {
+    "videos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.video-embed"
+    }
+  }
+}

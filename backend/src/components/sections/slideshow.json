@@ -15,6 +15,12 @@
         "images",
         "videos"
       ]
+    },
+    "overlay": {
+      "displayName": "overlay",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.overlay"
     }
   }
 }

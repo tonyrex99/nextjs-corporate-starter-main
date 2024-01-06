@@ -15,16 +15,21 @@
     "@strapi/plugin-i18n": "4.12.5",
     "@strapi/plugin-seo": "^1.8.0",
     "@strapi/plugin-users-permissions": "4.12.5",
+    "@strapi/provider-email-nodemailer": "^4.16.2",
     "@strapi/strapi": "4.12.5",
     "better-sqlite3": "8.4.0",
+    "false": "^0.0.4",
+    "mysql": "^2.18.1",
     "pg": "^8.11.3",
     "pg-connection-string": "^2.6.2",
-    "sharp": "^0.33.0",
+    "sharp": "^0.33.1",
     "strapi-content-type-explorer": "^0.1.1",
     "strapi-plugin-component-preview": "^1.0.9",
     "strapi-plugin-duplicate-button": "^1.1.14",
+    "strapi-plugin-publisher": "^1.5.6",
     "strapi-plugin-todo": "^0.0.10",
-    "strapi-plugin-website-preview": "^1.0.5"
+    "strapi-plugin-website-preview": "^1.0.5",
+    "strapi4-ftp-provider": "^1.0.5"
   },
   "author": {
     "name": "A Strapi developer"

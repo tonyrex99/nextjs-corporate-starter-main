@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_section_titles",
+  "info": {
+    "displayName": "Section title"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "required": true,
+      "customField": "plugin::ckeditor.CKEditor"
+    }
+  }
+}

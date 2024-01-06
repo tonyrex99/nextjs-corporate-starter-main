@@ -41,7 +41,10 @@
         "sections.heading",
         "sections.slideshow",
         "shared.slider",
-        "sections.card-section"
+        "sections.card-section",
+        "sections.section-title",
+        "sections.video-embed-collection",
+        "sections.page-header-with-image"
       ],
       "pluginOptions": {
         "i18n": {

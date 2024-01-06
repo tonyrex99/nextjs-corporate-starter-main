@@ -22,6 +22,9 @@ const populate = {
       buttons: {
         populate: true,
       },
+      button: {
+        populate: true,
+      },
       feature: {
         populate: {
           fields: ["title", "description", "showLink", "newTab", "url", "text"],
@@ -42,6 +45,33 @@ const populate = {
       },
       submitButton: {
         populate: true,
+      },
+      overlay: {
+        populate: {
+          fields: ["content", "contentColor", "color", "colorOpacity"],
+          buttons: {
+            populate: true,
+          },
+        },
+      },
+      videos: {
+        populate: true,
+      },
+      cards: {
+        populate: {
+          fields: [
+            "title",
+            "description",
+            "borderColor",
+            "borderPosition",
+            "imageOverlay",
+            "imageOverlayOpacity",
+            "imagePosition",
+          ],
+          picture: {
+            fields: ["url", "alternativeText", "caption", "width", "height"],
+          },
+        },
       },
     },
   },
